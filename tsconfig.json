@@ -1,0 +1,14 @@
+{
+  // Change this to match your project
+  "include": ["src/**/*"],
+  "exclude": ["**/*.stories.*", "node_modules"],
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
